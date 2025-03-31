@@ -1,0 +1,5 @@
+{
+    "beginner": ["The cat sat on the mat.", "I like to run."],
+    "intermediate": ["The quick brown fox jumps over the lazy dog.", "She reads books every day."],
+    "advanced": ["She sells seashells by the seashore.", "The rhythm of the rain is relaxing."]
+}

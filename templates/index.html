@@ -11,11 +11,12 @@
     <div class="container mt-5">
         <h1 class="text-center mb-4">AI Pronunciation Trainer</h1>
         <div class="card p-4 shadow">
-            <p class="lead">Practice this sentence:</p>
+            <p class="lead">Say this:</p>
             <h3 class="text-primary">{{ sentence }}</h3>
-            <button id="recordBtn" class="btn btn-success mt-3">Start Recording</button>
+            <button id="recordBtn" class="btn btn-success mt-3">Record</button>
             <div id="result" class="mt-4">
-                <p><strong>Your Score:</strong> <span id="score" class="badge bg-info"></span></p>
+                <p><strong>You Said:</strong> <span id="spoken_text"></span></p>
+                <p><strong>Score:</strong> <span id="score" class="badge bg-info"></span></p>
                 <p><strong>Feedback:</strong> <span id="feedback"></span></p>
                 <p><strong>Target IPA:</strong> <span id="target_ipa" class="font-monospace"></span></p>
                 <p><strong>Your IPA:</strong> <span id="user_ipa" class="font-monospace"></span></p>

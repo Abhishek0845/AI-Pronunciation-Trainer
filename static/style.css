@@ -1,0 +1,23 @@
+body {
+    background-color: #f0f2f5;
+    font-family: 'Arial', sans-serif;
+}
+.card {
+    border-radius: 15px;
+    background: #fff;
+}
+.btn {
+    transition: all 0.3s;
+}
+.btn:hover {
+    transform: scale(1.05);
+}
+#result {
+    display: none;
+}
+#result.show {
+    display: block;
+}
+h1 {
+    color: #343a40;
+}
